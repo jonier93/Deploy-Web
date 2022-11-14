@@ -1,0 +1,20 @@
+
+.imagenRegister {
+    height: 120px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.form-control{
+    margin-bottom: 4%;
+}
+
+#colPers2 {
+    border: 2px solid;
+    background-color: rgb(152, 221, 242);
+    margin-top: 3%;
+    padding:2%;   
+    border-radius: 10px; 
+    border: 1px solid black;
+    font-size: 18px;
+}
+

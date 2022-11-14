@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+
+#colPers {
+    background-color: rgb(152, 221, 242);
+    margin-top: 7%;
+    padding:2%;   
+    border-radius: 10px; 
+    border: 1px solid black;  
+    font-size: 18px;  
+}
+
+#imagenLogin {
+    height: 100px;
+    margin-bottom: 5%;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+#emailCred, #passwordCred {
+    border-radius: 5px;
+    border: 0px solid;
+    padding: 2%;
+}

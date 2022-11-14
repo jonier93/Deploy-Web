@@ -1,0 +1,29 @@
+/*.btnBarra{
+    background-color:black;
+    color: white;
+    border: 0px solid;
+    font-size: 35px;
+    padding: 1%;
+}
+.blockBarra{
+    background-color:black;
+}
+button:hover{
+    background-color: blueviolet;
+}*/
+
+.link {
+    background-color:black;
+    color: white;
+    border: 0px solid;
+    font-size: 35px;
+    padding: 1%;
+    text-decoration: none;
+}
+.blockBrowser {
+    background-color:black;
+    padding: 1%;    
+}
+:hover:Link {
+    background-color: aqua;
+}
