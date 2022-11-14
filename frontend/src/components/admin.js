@@ -19,6 +19,9 @@ export function Admin () {
                 <li class="nav-item">
                     <a class="nav-link" href="#"> Lista ventas </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home"> Cerrar Sesion</a>
+                </li>
                 </ul>
             </div>
             </nav>

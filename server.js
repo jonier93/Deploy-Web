@@ -9,6 +9,10 @@ app.use(ex.json())
 app.use(ex.static("./frontend/build"))
 app.use(router)
 
+app.use(function(req, res) {
+    res.status(404).end('error');
+});
+
 const port = process.env.PORT || 8080
 app.listen(port, function(){
     console.log("Servidor iniciado")
