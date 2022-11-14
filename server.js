@@ -13,7 +13,7 @@ app.use(function(req, res) {
     res.redirect('/')
 });
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 80
 app.listen(port, function(){
     console.log("Servidor iniciado")
 })
