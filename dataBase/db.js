@@ -43,7 +43,6 @@ export let register = async (datos) => {
 }
 
 export let updateCarrito = async(idUser, datosCarrito) => {
-    console.log(datosCarrito)
     await collection.updateOne({_id:idUser}, {
         $set:{
             carrito:datosCarrito

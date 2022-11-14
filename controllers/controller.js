@@ -8,7 +8,6 @@ export function registrar (req, resp){
     .catch(err => resp.send(err))
 
     function guardar(data) {
-        console.log(data)
         if (data == null) {
             register(req.body)  
             .then(() => resp.send("Usuario guardado exitosamente"))  
